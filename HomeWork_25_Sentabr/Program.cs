@@ -17,7 +17,7 @@ var book_2 = new Library
  
 var json = JsonConvert.SerializeObject(book_1);
 var data = new StringContent(json, Encoding.UTF8, "application/json");
-var url = "http://localhost:5258/api/Companies/";
+var url = "http://localhost:5258/api/Librarie/";
 using var client = new HttpClient();
 
 //Create
